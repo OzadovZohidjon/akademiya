@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- HEADER - START -->
+
+    <header>
+        <div class="header__top">
+            <div class="container">
+                <div class="header__top_left">
+                    <p>Высшая школа стратегического анализа
+                        и прогнозирования Республики Узбекистан</p>
+                </div>
+                <div class="header__top_right">
+                    <a href="#" class="blind">
+                        <span><img src="img/Vector.png" alt="glasses_img"></span>
+                        <p>Версия для слабовидящих</p>
+                    </a>
+                    <div class="search">
+                        <input type="text" placeholder="Поиск" >
+                        <a href="#"><ion-icon name="search-outline" class="search_icon"></ion-icon></a>
+                    </div>
+                    <ul class="language">
+                            <li><a href="#" class="language_link">O’zbekcha</a></li>
+                            <li><a href="#" class="language_link active_language_link">Русский</a></li>
+                            <li><a href="#" class="language_link">English</a></li>
+                    </ul>
+                </div>
+                <div class="header_mobile_button">
+                    <ion-icon name="menu-outline"></ion-icon>
+                </div>
+            </div>
+        </div>
+
+        <div class="header_mobile_menu">
+            <div class="header_mobile_menu_top">                
+            </div>
+            <div class="header_mobile_menu_links">
+                <ul class="header_mobile_nav">
+                    <li class="menu_item">
+                        <a href="secondPage.html" class="menu_link">О Высшей школе</a>
+                        <ul class="mobile_dropdown_menu deactive">
+                            <li class="mobile_dropdown_menu_item"><a class="mobile_dropdown_menu_link" href="#">Структура</a></li>
+                            <li class="mobile_dropdown_menu_item"><a class="mobile_dropdown_menu_link" href="#">Общие сведения</a></li>
+                            <li class="mobile_dropdown_menu_item"><a class="mobile_dropdown_menu_link" href="#">Цели и задачи</a></li>
+                            <li class="mobile_dropdown_menu_item"><a class="mobile_dropdown_menu_link" href="#">Руководство</a></li>
+                            <li class="mobile_dropdown_menu_item"><a class="mobile_dropdown_menu_link" href="#">Символика</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu_item">
+                        <a href="news.html" class="menu_link">НовостИ</a>
+                        <ul class="mobile_dropdown_menu deactive">
+                            <li class="mobile_dropdown_menu_item"><a class="mobile_dropdown_menu_link" href="#">Новости</a></li>
+                            <li class="mobile_dropdown_menu_item"><a class="mobile_dropdown_menu_link" href="#">Объявления </a></li>
+                        </ul>
+                    </li>
+                    <li class="menu_item">
+                        <a href="#" class="menu_link">Учебный процесс </a>
+                        <ul class="mobile_dropdown_menu deactive">
+                            <li class="mobile_dropdown_menu_item"><a class="mobile_dropdown_menu_link" href="#">Магистратура</a></li>
+                            <li class="mobile_dropdown_menu_item"><a class="mobile_dropdown_menu_link" href="#">Повышение квалификации</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu_item">
+                        <a href="#" class="menu_link">Наука</a>
+                        <ul class="mobile_dropdown_menu deactive">
+                            <li class="mobile_dropdown_menu_item"><a class="mobile_dropdown_menu_link" href="#">Научный совет</a></li>
+                            <li class="mobile_dropdown_menu_item"><a class="mobile_dropdown_menu_link" href="#">Приоритетные направления исследований</a></li>
+                            <li class="mobile_dropdown_menu_item"><a class="mobile_dropdown_menu_link" href="#">Совет молодых ученых</a></li>
+                            <li class="mobile_dropdown_menu_item"><a class="mobile_dropdown_menu_link" href="#">Научные конференции и семинары</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu_item">
+                        <a href="#" class="menu_link">Аналитика</a>
+                        <ul class="mobile_dropdown_menu deactive">
+                            <li class="mobile_dropdown_menu_item"><a class="mobile_dropdown_menu_link" href="#">Аналитические документы</a></li>
+                            <li class="mobile_dropdown_menu_item"><a class="mobile_dropdown_menu_link" href="#">Доклады</a></li>
+                            <li class="mobile_dropdown_menu_item"><a class="mobile_dropdown_menu_link" href="#">Обзоры </a></li>
+                        </ul>
+                    </li>
+                    <li class="menu_item">
+                        <a href="library.html" class="menu_link">ПУБЛИКАЦИИ</a>
+                        <ul class="mobile_dropdown_menu deactive">
+                            <li class="mobile_dropdown_menu_item"><a class="mobile_dropdown_menu_link" href="#">Книги </a></li>
+                            <li class="mobile_dropdown_menu_item"><a class="mobile_dropdown_menu_link" href="#">Монографии</a></li>
+                            <li class="mobile_dropdown_menu_item"><a class="mobile_dropdown_menu_link" href="#">Учебно-методические пособия</a></li>
+                            <li class="mobile_dropdown_menu_item"><a class="mobile_dropdown_menu_link" href="#">Научные статьи</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu_item">
+                        <a href="#" class="menu_link">Выпускники</a>
+                        <ul class="mobile_dropdown_menu deactive">
+                            <li class="mobile_dropdown_menu_item"><a class="mobile_dropdown_menu_link" href="#">О наших выпускниках </a></li>
+                            <li class="mobile_dropdown_menu_item"><a class="mobile_dropdown_menu_link" href="#">Отзывы выпускников </a></li>
+                        </ul>
+                    </li>
+                    <li class="menu_item">
+                        <a href="gallery.html" class="menu_link">Галерея</a>
+                        <ul class="mobile_dropdown_menu deactive">
+                            <li class="mobile_dropdown_menu_item"><a class="mobile_dropdown_menu_link" href="#">События в фотографиях</a></li>
+                            <li class="mobile_dropdown_menu_item"><a class="mobile_dropdown_menu_link" href="#">Видеоматериалы</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu_item">
+                        <a href="contact.html" class="menu_link">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="header__main">
+            <div class="header__main_gradient">
+                <span class="line"></span>
+                <div class="container">
+                    <div class="header__menu">
+                        <div class="nav">
+                            <ul class="menu">
+                                <li class="menu_item">
+                                    <a href="secondPage.html" class="menu_link">О Высшей школе</a>
+                                    <ul class="dropdown_menu">
+                                        <li class="dropdown_menu_item"><a class="dropdown_menu_link" href="thirdPage.html">Общие сведения</a></li>
+                                        <li class="dropdown_menu_item"><a class="dropdown_menu_link" href="#">Структура</a></li>
+                                        <li class="dropdown_menu_item"><a class="dropdown_menu_link" href="#">Цели и задачи</a></li>
+                                        <li class="dropdown_menu_item"><a class="dropdown_menu_link" href="#">Руководство</a></li>
+                                        <li class="dropdown_menu_item"><a class="dropdown_menu_link" href="#">Символика</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu_item">
+                                    <a href="news.html" class="menu_link">НовостИ</a>
+                                    <ul class="dropdown_menu">
+                                        <li class="dropdown_menu_item"><a class="dropdown_menu_link" href="#">Новости</a></li>
+                                        <li class="dropdown_menu_item"><a class="dropdown_menu_link" href="#">Объявления </a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu_item">
+                                    <a href="#" class="menu_link">Учебный процесс </a>
+                                    <ul class="dropdown_menu">
+                                        <li class="dropdown_menu_item"><a class="dropdown_menu_link" href="#">Магистратура</a></li>
+                                        <li class="dropdown_menu_item"><a class="dropdown_menu_link" href="#">Повышение квалификации</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu_item">
+                                    <a href="#" class="menu_link">Наука</a>
+                                    <ul class="dropdown_menu">
+                                        <li class="dropdown_menu_item"><a class="dropdown_menu_link" href="#">Научный совет</a></li>
+                                        <li class="dropdown_menu_item"><a class="dropdown_menu_link" href="#">Приоритетные направления исследований</a></li>
+                                        <li class="dropdown_menu_item"><a class="dropdown_menu_link" href="#">Совет молодых ученых</a></li>
+                                        <li class="dropdown_menu_item"><a class="dropdown_menu_link" href="#">Научные конференции и семинары</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu_item">
+                                    <a href="#" class="menu_link">Аналитика</a>
+                                    <ul class="dropdown_menu">
+                                        <li class="dropdown_menu_item"><a class="dropdown_menu_link" href="#">Аналитические документы</a></li>
+                                        <li class="dropdown_menu_item"><a class="dropdown_menu_link" href="#">Доклады</a></li>
+                                        <li class="dropdown_menu_item"><a class="dropdown_menu_link" href="#">Обзоры </a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu_item">
+                                    <a href="library.html" class="menu_link">ПУБЛИКАЦИИ</a>
+                                    <ul class="dropdown_menu">
+                                        <li class="dropdown_menu_item"><a class="dropdown_menu_link" href="#">Книги </a></li>
+                                        <li class="dropdown_menu_item"><a class="dropdown_menu_link" href="#">Монографии</a></li>
+                                        <li class="dropdown_menu_item"><a class="dropdown_menu_link" href="#">Учебно-методические пособия</a></li>
+                                        <li class="dropdown_menu_item"><a class="dropdown_menu_link" href="#">Научные статьи</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu_item">
+                                    <a href="#" class="menu_link">Выпускники</a>
+                                    <ul class="dropdown_menu">
+                                        <li class="dropdown_menu_item"><a class="dropdown_menu_link" href="#">О наших выпускниках </a></li>
+                                        <li class="dropdown_menu_item"><a class="dropdown_menu_link" href="#">Отзывы выпускников </a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu_item">
+                                    <a href="gallery.html" class="menu_link">Галерея</a>
+                                    <ul class="dropdown_menu">
+                                        <li class="dropdown_menu_item"><a class="dropdown_menu_link" href="#">События в фотографиях</a></li>
+                                        <li class="dropdown_menu_item"><a class="dropdown_menu_link" href="#">Видеоматериалы</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu_item">
+                                    <a href="contact.html" class="menu_link">Контакты</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="header__content">
+                        <p>С другой стороны укрепление и развитие структуры обеспечивает участие в формировании систем массового участия</p>
+                        <div class="slider_controller">
+                            <a href="#"><ion-icon class="slider_controller_icon" name="arrow-forward-outline"></ion-icon></a> <br>
+                            <a href="#"><ion-icon class="slider_controller_icon" name="arrow-back-outline"></ion-icon></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+    </header>
+
+    <!-- HEADER - END -->
+
+    <!-- SECTION-PROCESS - START -->
+
+    <section class="process">
+        <div class="container">
+            <div class="process_title">
+                <h1>Учебный процесс</h1>
+            </div>
+            <div class="process_blocks">
+                <div class="row">
+                    <div class="process_block col-lg-2 col-xl-2 col-md-4 col-sm-6">
+                        <div class="process_block_line"></div>
+                        <div class="process_block_title">
+                            <h4>Магистратура</h4>
+                        </div>
+                    </div>
+                    <div class="process_block col-lg-2 col-xl-2 col-md-4 col-sm-6">
+                        <div class="process_block_line"></div>
+                        <div class="process_block_title">
+                            <h4>Повышение квалификации</h4>
+                        </div>
+                    </div>
+                    <div class="process_block col-lg-2 col-xl-2 col-md-4 col-sm-6">
+                        <div class="process_block_line"></div>
+                        <div class="process_block_title">
+                            <h4>Научный совет</h4>
+                        </div>
+                    </div>
+                    <div class="process_block col-lg-2 col-xl-2 col-md-4 col-sm-6">
+                        <div class="process_block_line"></div>
+                        <div class="process_block_title">
+                            <h4>Совет молодых ученых </h4>
+                        </div>
+                    </div>
+                    <div class="process_block col-lg-2 col-xl-2 col-md-4 col-sm-6">
+                        <div class="process_block_line"></div>
+                        <div class="process_block_title">
+                            <h4>Научные конференции и семинары</h4>
+                        </div>
+                    </div>
+                    <div class="process_block col-lg-2 col-xl-2 col-md-4 col-sm-6">
+                        <div class="process_block_line"></div>
+                        <div class="process_block_title">
+                            <h4>Учебно-методические пособия</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION-PROCESS - END -->
+
+    <!-- SECTION - YEARNAME -START -->
+
+    <div class="container">
+        <section class="year_name">
+            <div class="year_name_title">
+                <h1><span>2020</span> Ilm-ma'rifat va raqamli iqtisodiyotni rivojlantirish yili</h1>
+            </div>
+            <div class="section_lines">
+                <div class="section_line"></div>
+                <div class="section_line"></div>
+                <div class="section_line"></div>
+            </div>
+        </section>
+    </div>
+
+    <!-- SECTION - YEARNAME -END -->
+
+    <!-- SECTION - GALERY -START -->
+
+    <section class="galery">
+        <div class="container">
+            <div class="galery_content">
+                <div class="galery_title">
+                    <h1>Галерея</h1>
+                    <a href="#">Все материалы</a>
+                </div>
+                <div class="section_lines">
+                    <div class="section_line"></div>
+                    <div class="section_line"></div>
+                    <div class="section_line"></div>
+                </div>
+            </div>
+            <div class="galery_blocks">
+                <div class="row">
+                    <div class="galery_block col-xs-2 col-lg-2 col-md-4 col-sm-6">
+                        <img src="img/galery_1.jpg" alt="galery_img">
+                        <div class="overlay">
+                            <svg width="61" height="61" viewBox="0 0 61 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M52.1041 13.9791H44.4791C43.9326 13.9791 43.4473 13.6309 43.2744 13.1099L42.4713 10.7004C41.6045 8.10025 39.1824 6.35413 36.4424 6.35413H24.5575C21.8176 6.35413 19.3954 8.10025 18.5313 10.6979L17.7281 13.1099C17.5527 13.6309 17.0673 13.9791 16.5209 13.9791H8.89587C3.99038 13.9791 0 17.9696 0 22.875V45.75C0 50.6554 3.99038 54.6459 8.89587 54.6459H52.1042C57.0096 54.6459 61 50.6554 61 45.75V22.875C61 17.9696 57.0096 13.9791 52.1041 13.9791ZM58.4584 45.75C58.4584 49.2524 55.6066 52.1041 52.1042 52.1041H8.89587C5.3935 52.1041 2.54175 49.2524 2.54175 45.75V22.875C2.54175 19.3726 5.3935 16.5209 8.89587 16.5209H16.5209C18.1628 16.5209 19.6166 15.4737 20.1376 13.9156L20.9434 11.501C21.4619 9.943 22.9157 8.89575 24.5576 8.89575H36.4425C38.0844 8.89575 39.5382 9.94288 40.0592 11.5035L40.8624 13.9155C41.3834 15.4735 42.8372 16.5208 44.4791 16.5208H52.1041C55.6065 16.5208 58.4583 19.3725 58.4583 22.8749V45.75H58.4584Z" fill="white"/>
+                                <path d="M30.5 19.0625C22.0896 19.0625 15.25 25.9021 15.25 34.3125C15.25 42.7229 22.0896 49.5625 30.5 49.5625C38.9104 49.5625 45.75 42.7229 45.75 34.3125C45.75 25.9021 38.9104 19.0625 30.5 19.0625ZM30.5 47.0209C23.4926 47.0209 17.7916 41.3199 17.7916 34.3125C17.7916 27.3051 23.4926 21.6041 30.5 21.6041C37.5074 21.6041 43.2084 27.3051 43.2084 34.3125C43.2084 41.3199 37.5074 47.0209 30.5 47.0209Z" fill="white"/>
+                                <path d="M30.5 24.1459C24.8931 24.1459 20.3334 28.7056 20.3334 34.3125C20.3334 35.014 20.9027 35.5834 21.6042 35.5834C22.3057 35.5834 22.875 35.014 22.875 34.3125C22.875 30.1086 26.2961 26.6875 30.5 26.6875C31.2015 26.6875 31.7709 26.1181 31.7709 25.4166C31.7709 24.7151 31.2015 24.1459 30.5 24.1459Z" fill="white"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="galery_block col-xs-2 col-lg-2 col-md-4 col-sm-6">
+                        <img src="img/galery_2.jpg" alt="galery_img">
+                        <div class="overlay">
+                            <svg width="61" height="61" viewBox="0 0 61 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M58.8889 27.0911L5.51701 0.40513C4.33008 -0.189585 2.94241 -0.126087 1.80897 0.57287C0.678036 1.27171 0.00195312 2.48401 0.00195312 3.81331V57.1852C0.00195312 58.5144 0.678036 59.7267 1.80897 60.4256C2.42656 60.8093 3.1204 61 3.81423 61C4.3937 61 4.97828 60.8652 5.51963 60.5959L58.8915 33.9099C60.1902 33.2593 60.9984 31.9529 60.9984 30.4992C60.9984 29.0456 60.1902 27.739 58.8889 27.0911ZM57.7554 31.6352L4.38357 58.3211C3.81173 58.6109 3.32888 58.3745 3.14589 58.2652C2.9654 58.1534 2.54355 57.823 2.54355 57.1851V3.81319C2.54355 3.17523 2.9654 2.84487 3.14339 2.733C3.26288 2.66188 3.50424 2.53989 3.81685 2.53989C3.98971 2.53989 4.18033 2.57551 4.38357 2.67713L57.7554 29.3631C58.1925 29.5817 58.4569 30.0086 58.4569 30.4991C58.4569 30.9896 58.1925 31.4167 57.7554 31.6352Z" fill="white"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="galery_block col-xs-2 col-lg-2 col-md-4 col-sm-6">
+                        <img src="img/galery_3.jpg" alt="galery_img">
+                        <div class="overlay">
+                            <svg width="61" height="61" viewBox="0 0 61 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M52.1041 13.9791H44.4791C43.9326 13.9791 43.4473 13.6309 43.2744 13.1099L42.4713 10.7004C41.6045 8.10025 39.1824 6.35413 36.4424 6.35413H24.5575C21.8176 6.35413 19.3954 8.10025 18.5313 10.6979L17.7281 13.1099C17.5527 13.6309 17.0673 13.9791 16.5209 13.9791H8.89587C3.99038 13.9791 0 17.9696 0 22.875V45.75C0 50.6554 3.99038 54.6459 8.89587 54.6459H52.1042C57.0096 54.6459 61 50.6554 61 45.75V22.875C61 17.9696 57.0096 13.9791 52.1041 13.9791ZM58.4584 45.75C58.4584 49.2524 55.6066 52.1041 52.1042 52.1041H8.89587C5.3935 52.1041 2.54175 49.2524 2.54175 45.75V22.875C2.54175 19.3726 5.3935 16.5209 8.89587 16.5209H16.5209C18.1628 16.5209 19.6166 15.4737 20.1376 13.9156L20.9434 11.501C21.4619 9.943 22.9157 8.89575 24.5576 8.89575H36.4425C38.0844 8.89575 39.5382 9.94288 40.0592 11.5035L40.8624 13.9155C41.3834 15.4735 42.8372 16.5208 44.4791 16.5208H52.1041C55.6065 16.5208 58.4583 19.3725 58.4583 22.8749V45.75H58.4584Z" fill="white"/>
+                                <path d="M30.5 19.0625C22.0896 19.0625 15.25 25.9021 15.25 34.3125C15.25 42.7229 22.0896 49.5625 30.5 49.5625C38.9104 49.5625 45.75 42.7229 45.75 34.3125C45.75 25.9021 38.9104 19.0625 30.5 19.0625ZM30.5 47.0209C23.4926 47.0209 17.7916 41.3199 17.7916 34.3125C17.7916 27.3051 23.4926 21.6041 30.5 21.6041C37.5074 21.6041 43.2084 27.3051 43.2084 34.3125C43.2084 41.3199 37.5074 47.0209 30.5 47.0209Z" fill="white"/>
+                                <path d="M30.5 24.1459C24.8931 24.1459 20.3334 28.7056 20.3334 34.3125C20.3334 35.014 20.9027 35.5834 21.6042 35.5834C22.3057 35.5834 22.875 35.014 22.875 34.3125C22.875 30.1086 26.2961 26.6875 30.5 26.6875C31.2015 26.6875 31.7709 26.1181 31.7709 25.4166C31.7709 24.7151 31.2015 24.1459 30.5 24.1459Z" fill="white"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="galery_block col-xs-2 col-lg-2 col-md-4 col-sm-6">
+                        <img src="img/galery_4.jpg" alt="galery_img">
+                        <div class="overlay">
+                            <svg width="61" height="61" viewBox="0 0 61 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M52.1041 13.9791H44.4791C43.9326 13.9791 43.4473 13.6309 43.2744 13.1099L42.4713 10.7004C41.6045 8.10025 39.1824 6.35413 36.4424 6.35413H24.5575C21.8176 6.35413 19.3954 8.10025 18.5313 10.6979L17.7281 13.1099C17.5527 13.6309 17.0673 13.9791 16.5209 13.9791H8.89587C3.99038 13.9791 0 17.9696 0 22.875V45.75C0 50.6554 3.99038 54.6459 8.89587 54.6459H52.1042C57.0096 54.6459 61 50.6554 61 45.75V22.875C61 17.9696 57.0096 13.9791 52.1041 13.9791ZM58.4584 45.75C58.4584 49.2524 55.6066 52.1041 52.1042 52.1041H8.89587C5.3935 52.1041 2.54175 49.2524 2.54175 45.75V22.875C2.54175 19.3726 5.3935 16.5209 8.89587 16.5209H16.5209C18.1628 16.5209 19.6166 15.4737 20.1376 13.9156L20.9434 11.501C21.4619 9.943 22.9157 8.89575 24.5576 8.89575H36.4425C38.0844 8.89575 39.5382 9.94288 40.0592 11.5035L40.8624 13.9155C41.3834 15.4735 42.8372 16.5208 44.4791 16.5208H52.1041C55.6065 16.5208 58.4583 19.3725 58.4583 22.8749V45.75H58.4584Z" fill="white"/>
+                                <path d="M30.5 19.0625C22.0896 19.0625 15.25 25.9021 15.25 34.3125C15.25 42.7229 22.0896 49.5625 30.5 49.5625C38.9104 49.5625 45.75 42.7229 45.75 34.3125C45.75 25.9021 38.9104 19.0625 30.5 19.0625ZM30.5 47.0209C23.4926 47.0209 17.7916 41.3199 17.7916 34.3125C17.7916 27.3051 23.4926 21.6041 30.5 21.6041C37.5074 21.6041 43.2084 27.3051 43.2084 34.3125C43.2084 41.3199 37.5074 47.0209 30.5 47.0209Z" fill="white"/>
+                                <path d="M30.5 24.1459C24.8931 24.1459 20.3334 28.7056 20.3334 34.3125C20.3334 35.014 20.9027 35.5834 21.6042 35.5834C22.3057 35.5834 22.875 35.014 22.875 34.3125C22.875 30.1086 26.2961 26.6875 30.5 26.6875C31.2015 26.6875 31.7709 26.1181 31.7709 25.4166C31.7709 24.7151 31.2015 24.1459 30.5 24.1459Z" fill="white"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="galery_block col-xs-2 col-lg-2 col-md-4 col-sm-6">
+                        <img src="img/galery_5.jpg" alt="galery_img">
+                        <div class="overlay">
+                            <svg width="61" height="61" viewBox="0 0 61 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M58.8889 27.0911L5.51701 0.40513C4.33008 -0.189585 2.94241 -0.126087 1.80897 0.57287C0.678036 1.27171 0.00195312 2.48401 0.00195312 3.81331V57.1852C0.00195312 58.5144 0.678036 59.7267 1.80897 60.4256C2.42656 60.8093 3.1204 61 3.81423 61C4.3937 61 4.97828 60.8652 5.51963 60.5959L58.8915 33.9099C60.1902 33.2593 60.9984 31.9529 60.9984 30.4992C60.9984 29.0456 60.1902 27.739 58.8889 27.0911ZM57.7554 31.6352L4.38357 58.3211C3.81173 58.6109 3.32888 58.3745 3.14589 58.2652C2.9654 58.1534 2.54355 57.823 2.54355 57.1851V3.81319C2.54355 3.17523 2.9654 2.84487 3.14339 2.733C3.26288 2.66188 3.50424 2.53989 3.81685 2.53989C3.98971 2.53989 4.18033 2.57551 4.38357 2.67713L57.7554 29.3631C58.1925 29.5817 58.4569 30.0086 58.4569 30.4991C58.4569 30.9896 58.1925 31.4167 57.7554 31.6352Z" fill="white"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION - GALERY -END -->
+
+    <!-- SECTION - NEWS -START -->
+
+    <section class="news">
+        <div class="container">
+            <div class="news_content">
+                <div class="news_title">
+                    <h1>Новости</h1>
+                    <a href="#">Все новости</a>
+                </div>
+                <div class="section_lines">
+                    <div class="section_line"></div>
+                    <div class="section_line"></div>
+                    <div class="section_line"></div>
+                </div>
+            </div>
+
+            <div class="news_blocks">
+                <div class="row  ">
+                    <div class="news_block col-xs-2 col-lg-2 col-md-4 col-sm-6">
+                        <div class="news_block_img">
+                            <img src="img/news_1.jpg" alt="news_img">
+                            <div class="overlay"></div>
+                        </div>
+                        <div class="news_block_content">
+                            <p class="news_block_date">22.09,2020</p>
+                            <h4 class="news_block_title">Официальное число умерших с COVID-19 превысило 450</h4>
+                        </div>
+                    </div>
+                    <div class="news_block col-xs-2 col-lg-2 col-md-4 col-sm-6">
+                        <div class="news_block_img">
+                            <img src="img/news_2.jpg" alt="news_img">
+                            <div class="overlay"></div>
+                        </div>
+                        <div class="news_block_content">
+                            <p class="news_block_date">21.09,2020</p>
+                            <h4 class="news_block_title">Опубликована стоимость контрактов со стипендией и без нее на 2020/2021 учебный год</h4>
+                        </div>
+                    </div>
+                    <div class="news_block col-xs-2 col-lg-2 col-md-4 col-sm-6">
+                        <div class="news_block_img">
+                            <img src="img/news_3.jpg" alt="news_img">
+                            <div class="overlay"></div>
+                        </div>
+                        <div class="news_block_content">
+                            <p class="news_block_date">20.09,2020</p>
+                            <h4 class="news_block_title">Шавкат Мирзиёев слетал в Казахстан</h4>
+                        </div>
+                    </div>
+                    <div class="news_block col-xs-2 col-lg-2 col-md-4 col-sm-6">
+                        <div class="news_block_img">
+                            <img src="img/news_4.jpg" alt="news_img">
+                            <div class="overlay"></div>
+                        </div>
+                        <div class="news_block_content">
+                            <p class="news_block_date">31.08,2020</p>
+                            <h4 class="news_block_title">Депутаты одобрили кандидатуру Шухрата Ганиева единогласно</h4>
+                        </div>
+                    </div>
+                    <div class="news_block col-xs-2 col-lg-2 col-md-4 col-sm-6">
+                        <div class="news_block_img">
+                            <img src="img/news_5.jpg" alt="news_img">
+                            <div class="overlay"></div>
+                        </div>
+                        <div class="news_block_content">
+                            <p class="news_block_date">13.08,2020</p>
+                            <h4 class="news_block_title">ГЦТ объявил итоги вступительных экзаменов в вузы</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION - NEWS -END -->
+
+    <!-- SECTION - RESOURCE -START -->
+
+    <section class="resources">
+        <div class="container">
+            <div class="resources_content">
+                <div class="resources_title">
+                    <h1>Полезные интернет-ресурсы</h1>
+                </div>
+                <div class="section_lines">
+                    <div class="section_line"></div>
+                    <div class="section_line"></div>
+                    <div class="section_line"></div>
+                </div>
+            </div>
+            <div class="resources_blocks">
+                <div class="row">
+                    <div class="resources_block col-lg-2 col-xl-2 col-md-4 col-sm-6">
+                        <div class="resources_block_line"></div>
+                        <div class="resources_block_title">
+                            <h4>Оффициальнқый сайт Президента Республики Узбекистан</h4>
+                            <a href="www.president.uz" target="_blink">www.president.uz</a>
+                        </div>
+                    </div>
+                    <div class="resources_block col-lg-2 col-xl-2 col-md-4 col-sm-6">
+                        <div class="resources_block_line"></div>
+                        <div class="resources_block_title">
+                            <h4>Сенат Олий Мажлиса</h4>
+                            <a href="www.senat.uz" target="_blink">www.senat.uz</a>
+                        </div>
+                    </div>
+                    <div class="resources_block col-lg-2 col-xl-2 col-md-4 col-sm-6">
+                        <div class="resources_block_line"></div>
+                        <div class="resources_block_title">
+                            <h4>Законодательная Палата Олий Мажлиса Республики Узбекистан</h4>
+                            <a href="www.parliament.gov.uz" target="_blink">www.parliament.gov.uz</a>
+                        </div>
+                    </div>
+                    <div class="resources_block col-lg-2 col-xl-2 col-md-4 col-sm-6">
+                        <div class="resources_block_line"></div>
+                        <div class="resources_block_title">
+                            <h4>Национальная база данных законодательства Республики Узбекистан</h4>
+                            <a href="www.gov.uz" target="_blink">www.gov.uz</a>
+                        </div>
+                    </div>
+                    <div class="resources_block col-lg-2 col-xl-2 col-md-4 col-sm-6">
+                        <div class="resources_block_line"></div>
+                        <div class="resources_block_title">
+                            <h4>Национальная база данных законодательства Республики Узбекистан</h4>
+                            <a href="www.lex.uz" target="_blink">www.lex.uz</a>
+                        </div>
+                    </div>
+                    <div class="resources_block col-lg-2 col-xl-2 col-md-4 col-sm-6">
+                        <div class="resources_block_line"></div>
+                        <div class="resources_block_title">
+                            <h4>Стратегия действий по пяти приоритетным направлениям развития РУз в 2017-2021 годах</h4>
+                            <a href="www.strategy.uz" target="_blink">www.strategy.uz</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION - RESOURCE - END -->
+
+    <!-- FOOTER - START -->
+
+    <footer>
+        <div class="container">
+            <div class="footer_top">
+                <div class="footer_top_content">
+                    <p> <span>График приема граждан:</span> Понедельник 14:00-15:00, Пятница 14:00-15:00</p>
+                    <p> <span>Телефон доверия: </span>+998 71 231 1234  +998 71 231 12 35</p>
+                </div>
+            </div>
+            <div class="footer_main">
+                <div class="row">
+                    <div class="footer_logo col-xl-4 col-lg-4 col-md-4 col-sm-6">
+                        <img src="img/footer_logo.png" alt="footer_logo">
+                        <p>Высшая школа стратегического анализа и прогнозирования Республики Узбекистан</p>
+                    </div>
+                    <div class="footer_menu col-xl-4 col-lg-4 col-md-4 col-sm-6">
+                        <div class="row">
+                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 footer_menu_item">
+                                <a class="footer_link" href="#">Главная</a><br>
+                                <a class="footer_link" href="#">О высшей школе</a><br>
+                                <a class="footer_link" href="#">Новости</a><br>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 footer_menu_item">
+                                <a class="footer_link" href="#">Учебный процесс</a><br>
+                                <a class="footer_link" href="#">Наука</a><br>
+                                <a class="footer_link" href="#">Аналитика</a><br>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 footer_menu_item">
+                                <a class="footer_link" href="#">Публикации</a><br>
+                                <a class="footer_link" href="#">Выпускники</a><br>
+                                <a class="footer_link" href="#">Галлерея</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer_address col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                        <p>г. Ташкент, ул. Матбуотчилар, дом 89</p>
+                        <p>+998 90 123 45 67</p>
+                        <p> +998 99 812 34 56</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="maska"></div>
+    <!-- FOOTER - END -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ==" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
